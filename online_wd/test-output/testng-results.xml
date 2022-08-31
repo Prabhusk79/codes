@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="51353" started-at="2022-08-19T14:12:50 IST" finished-at="2022-08-19T14:13:42 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="51353" started-at="2022-08-19T14:12:50 IST" finished-at="2022-08-19T14:13:42 IST">
+      <class name="tng_dataprovide.Example2">
+        <test-method status="PASS" signature="datapro(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tng_dataprovide.Example2@382db087]" name="datapro" duration-ms="12509" started-at="2022-08-19T14:12:50 IST" data-provider="prabhu" finished-at="2022-08-19T14:13:03 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[prabhuskcool@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Prabhu@79]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- datapro -->
+        <test-method status="PASS" signature="datapro(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tng_dataprovide.Example2@382db087]" name="datapro" duration-ms="12783" started-at="2022-08-19T14:13:03 IST" data-provider="prabhu" finished-at="2022-08-19T14:13:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invaliduser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[prabhusk]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Prabhu@79]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- datapro -->
+        <test-method status="PASS" signature="datapro(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tng_dataprovide.Example2@382db087]" name="datapro" duration-ms="12696" started-at="2022-08-19T14:13:16 IST" data-provider="prabhu" finished-at="2022-08-19T14:13:28 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalidpass]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[prabhuskcool@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[prabhu123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- datapro -->
+        <test-method status="PASS" signature="datapro(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tng_dataprovide.Example2@382db087]" name="datapro" duration-ms="13196" started-at="2022-08-19T14:13:28 IST" data-provider="prabhu" finished-at="2022-08-19T14:13:42 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[prabhu@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[prabhu@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- datapro -->
+      </class> <!-- tng_dataprovide.Example2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
