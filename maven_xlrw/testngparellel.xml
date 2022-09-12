@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Suite">
+  <test thread-count="5" parallel="classes" name="Test">
+    <classes>
+      <class name="folder1.C1"/>
+      <class name="folder1.C2"/>
+      <class name="folder2.C3"/>
+      <class name="folder2.C4"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
