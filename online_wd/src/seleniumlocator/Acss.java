@@ -2,6 +2,8 @@ package seleniumlocator;
 
 import org.openqa.selenium.chrome.ChromeDriver;
 
+
+
 public class Acss {
 
 	public static void main(String[] args) throws InterruptedException {
@@ -9,7 +11,7 @@ public class Acss {
 
 		// Perform login in mycontactform using css
 		
-		System.setProperty("webdriver.chrome.driver","/Users/varun/Downloads/chromedriver" );
+		System.setProperty("webdriver.chrome.driver","/Users/varun/Downloads/chromedriver");
 		ChromeDriver d= new ChromeDriver();
 		d.get("https://www.mycontactform.com");
 		d.manage().window().maximize();
